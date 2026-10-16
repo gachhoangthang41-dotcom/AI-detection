@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+
+# Source datasets and generated training outputs are kept outside this CV repository.
+dataset/
+runs/
+*.zip
+latest_request.jpg
+
+# Local media used for manual testing.
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+!.gitkeep
